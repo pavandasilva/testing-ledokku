@@ -10,7 +10,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node lib/main/index.js"
+    "start": "node lib/main/index.js",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "axios": "^0.21.1",
